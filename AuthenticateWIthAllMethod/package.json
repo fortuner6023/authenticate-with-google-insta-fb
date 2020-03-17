@@ -1,0 +1,23 @@
+{
+  "name": "authenticatewithallmethod",
+  "version": "1.0.0",
+  "description": "AUthenticate with google fb and instagram",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Naveen",
+    "Saini"
+  ],
+  "author": "Naveen Saini",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^4.13.20",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
